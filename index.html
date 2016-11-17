@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wheel of Fortune</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<img id="wheel" src="images/wheel.png">
+		<h1>Wheel of Fortune</h1>
+		<div id="hint"></div>
+		<div id="board">
+		</div>
+		<div id="guess">
+			<h3>Type Your Guess Here</h3>
+			<input type="text" name="letter" id="letter">
+			<input type="submit" value="Guess" onclick="game.guess()">
+		</div>
+		<div id="guessed">
+		</div>
+	</div>
+</body>
+</html>
